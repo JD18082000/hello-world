@@ -9,10 +9,10 @@ y = 3
 
 
 
-console. log(newList);
+console.log(newList);
 
 firstNum = newList[X];
-console. log(firstNum);
+console.log(firstNum);
 
 /*
 z= x + y
