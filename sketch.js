@@ -2,14 +2,20 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
 }
 
-newList= 
+newList= [200,255,0,10,104,39,200,48,193];
 x= 0
 Speed = 5
 y = 3
 
+
+
+console. log(newList);
+
+firstNum = newList[X];
+console. log(firstNum);
+
 /*
-y = 3
-z = x + y
+z= x + y
 console. log(z);
 
 */
@@ -19,7 +25,7 @@ console. log(z);
 
 
 function draw() {
-    background (255, y , 0 );
+    background (255,0, 0,(x*0.01));
 
     //This is the circle on the left
     strokeweight(4);
@@ -27,7 +33,9 @@ function draw() {
     fill(0,110,255)
     circle(200,200,10);
 
-    //circle in the middle
+    listNum = newList[x];
+
+    //circle on the
     strokeweight(2);
     stroke(225,0,255);
     fill(110,255,0);
@@ -45,5 +53,4 @@ function draw() {
         speed = speed*-1 
     }
     //console.log(x);
-}
 }
