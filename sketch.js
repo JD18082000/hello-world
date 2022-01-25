@@ -11,7 +11,7 @@ y = 3
 
 console.log(newList);
 
-firstNum = newList[X];
+firstNum = newList[x];
 console.log(firstNum);
 
 /*
