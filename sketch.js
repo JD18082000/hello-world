@@ -8,19 +8,20 @@ let speedX =5;
 let speedY =5;
 
 //This is a list of colors
-cLr1= [0,0,0];
-cLr2= [200,20,20];
-cLr3= [0,0,255];
+clr1= [0,0,0];
+clr2= [200,20,20];
+clr3= [0,0,255];
 
 clrLIST = [clr1,clr2,clr3];
+counter =1;
 
 
 
 function draw() {
-    conseole. log(clrlist);
-    console.log(clrlist[1]);
+    console.log(clrLIST);
+    console.log(clrLIST[1]);
     //background (clrList[counter][0],clrlist[counter[1]],clrlist[counter[2]]);
-    background(clrlist[counter]);
+    background(clrLIST[counter]);
 
     fill(200,30,30);
     circle (x,y,100);
@@ -29,7 +30,7 @@ function draw() {
     y= y + speedY;
     counter = counter*-1;
 
-    if (counter= clrlist.length-1 || counter <=0){
+    if (counter= clrLIST.length-1 || counter <=0){
         direction = direction*-1
     }
     
